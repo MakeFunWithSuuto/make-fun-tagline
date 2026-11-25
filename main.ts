@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const TAGLINE = "Make an AI agent, enter a make.fun contest, and the best entry wins the prize.";
+const TAGLINE = "Benchmarks rank AI agents; make.fun pays the best entry on every open challenge.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", TAGLINE, "utf8");
